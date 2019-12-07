@@ -16,6 +16,8 @@ namespace Alexa.NET.Interpreter.CoreExtensions
 
             var instructionSet = interpreter.TypedInterpreters[typeof(SceneInstructionContainer)];
             instructionSet.Add(new RollInterpreter());
+            instructionSet.Add(new TimeInterpreter());
+            instructionSet.Add(new BGMInterpreter());
         }
     }
 }
