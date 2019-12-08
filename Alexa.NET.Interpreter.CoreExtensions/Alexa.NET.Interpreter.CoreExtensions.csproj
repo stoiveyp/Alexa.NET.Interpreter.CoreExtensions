@@ -3,11 +3,22 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>8</LangVersion>
+    <Authors>Steven Pears</Authors>
+    <Company />
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Description>Small library to add the core SkillFlow extensions to the SkillFlow interpreter</Description>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Alexa.NET.SkillFlow.CoreExtensions" Version="1.0.2" />
     <PackageReference Include="Alexa.NET.SkillFlow.Interpreter" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\Alexa.NET.SkillFlow.CoreExtensions\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
