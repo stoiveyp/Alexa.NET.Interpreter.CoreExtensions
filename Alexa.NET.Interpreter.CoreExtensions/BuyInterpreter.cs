@@ -37,6 +37,9 @@ namespace Alexa.NET.Interpreter.CoreExtensions
                 var value = match.Groups["value"].Value;
                 switch (key)
                 {
+                    case "item":
+                        buy.Item = value;
+                        break;
                     case "success":
                         buy.SuccessScene = value;
                         break;

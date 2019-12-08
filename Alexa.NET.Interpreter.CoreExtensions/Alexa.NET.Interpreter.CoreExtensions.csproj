@@ -8,6 +8,8 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Description>Small library to add the core SkillFlow extensions to the SkillFlow interpreter</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>Add item to Buy interpreter</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
