@@ -7,6 +7,7 @@
     <Company />
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Description>Small library to add the core SkillFlow extensions to the SkillFlow interpreter</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
