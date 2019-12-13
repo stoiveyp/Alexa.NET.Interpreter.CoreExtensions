@@ -5,7 +5,7 @@
     <LangVersion>8</LangVersion>
     <Authors>Steven Pears</Authors>
     <Company />
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseFile>LICENCE</PackageLicenseFile>
     <Description>Small library to add the core SkillFlow extensions to the SkillFlow interpreter</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>1.0.1</Version>
@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="LICENSE">
+    <None Include="LICENCE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
